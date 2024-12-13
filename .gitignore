@@ -1,0 +1,6 @@
+# Ignore sensitive files and folders
+data/*
+!data/raw/
+!data/processed/
+models/*
+
