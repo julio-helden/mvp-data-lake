@@ -4,3 +4,16 @@ data/*
 !data/processed/
 models/*
 
+# Virtual environment
+.venv/
+env/
+
+# VSCode settings
+.vscode/
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs and system files
+*.log
+*.DS_Store

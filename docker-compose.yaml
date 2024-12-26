@@ -36,7 +36,7 @@ services:
       - 9090:9090
     restart: unless-stopped
     volumes:
-      - ./prometheus:/etc/prometheus
+      - "./prometheus.yml:/Users/jvh/projects/DreamIT/prometheus/prometheus.yml"
       - prom_data:/prometheus
   grafana:
     image: grafana/grafana
